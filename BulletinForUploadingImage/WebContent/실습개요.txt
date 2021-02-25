@@ -1,0 +1,55 @@
+■■■ FileSystemApp11 ■■■
+
+○ 실습 내용
+   파일 업로드 - 데이터베이스 연동을 포함한 업로드 실습
+   ==>> 회원 데이터 연동, 이미지 업로드(게시판)
+   
+○ 물리적 파일 구성
+
+   00.FileSystemApp11_scott.sql									●
+
+   01. WebContent > WEB-INF > lib > jstl.jar					●
+   02. WebContent > WEB-INF > lib > standard.jar				●
+   03. WebContent > WEB-INF > lib > cos.jar		<< check~!!!	●
+   04. WebContent > WEB-INF > lib > ojdbc6.jar	<< check~!!!	●
+   
+   05. Java Resources > src > com.util.DBCPConn.java			●
+   
+   06. Java Resources > src > com.image.ImageDTO.java			●
+   07. Java Resources > src > com.image.ImageDAO.java			●
+   
+   08. Java Resources > src > com.image.ImageServlert.java
+   
+   09. Java Resources > src > com.member.MemberDTO.java			●
+   10. Java Resources > src > com.member.MemberDAO.java			●
+   
+   11. Java Resources > src > com.member.MemberServlet.java		●
+   
+   12. WebContent > menu > top.jsp								●
+   
+   13. WebContent > WEB-INF > web.xml							●
+
+   14. WebContent > data > css > member > member.css			●
+   15. WebContent > data > css > button.css						●
+   16. WebContent > data > css > style.css						●
+   
+   17. WebContent > member > member.jsp							●
+   
+   18. WebContent > index.jsp 									●
+   
+   19. WebContent > member > login.jsp 							●
+   
+   20. Java Resources > src > com.member.SessionInfo.java		●
+    
+   21. WebContent > imageBoard > created.jsp					●
+
+   22. WebContent > data > js > util.js  						●
+
+   23. WebContent > imageBoard > list.jsp						●
+   
+   24. Java Resources > src > com.util.FileManager.java			●
+   25. Java Resources > src > com.util.MyUtil.java				●
+   
+ ○ 사용자 최초 요청 주소
+http://localhost:8090/FileSystemApp11/
+   

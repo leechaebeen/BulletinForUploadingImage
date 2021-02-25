@@ -1,0 +1,141 @@
+@CHARSET "UTF-8";
+
+#member 
+{
+	width:600px;
+	margin:20px auto;
+	text-align:left;
+}
+
+#member_title 
+{
+	width:574px;
+	padding-left:20px;
+	height:40px;
+	border:3px solid #D6D4A6;
+	text-align:left;
+	font-weight: bold;
+	line-height:40px;
+	font-size:10pt;
+	margin-bottom:30px;
+}
+
+#memberCreated 
+{
+	width:600px;
+	overflow: visible;
+	border-top:3px solid #DBDBDB;
+	border-bottom:3px solid #DBDBDB;
+	text-align:left;
+}
+
+.memberCreated_bottomLine 
+{
+	height:35px;
+	line-height:35px;
+	border-bottom:1px solid #DBDBDB;
+	clear:both;
+	text-align:left;
+}
+.memberCreated_noLine 
+{
+	height:35px;
+	line-height:35px;
+	clear:both;
+	text-align:left;
+}
+
+#memberCreated_content 
+{
+	height:170px;
+	line-height:170px;
+	border-bottom:1px solid #DBDBDB;
+	clear:both;
+	text-align:left;
+}
+
+#memberCreated dt 
+{
+	float:left;
+	height:35px;
+	width:80px;
+	line-height:35px;
+	text-align:left;
+	padding-left:20px;
+	background:#EEEEEE;
+}
+#memberCreated dd 
+{
+	float:left;
+	height:35px;
+	width:440px;
+	line-height:35px;
+	text-align:left;
+	padding-left:10px;
+}
+
+#memberCreated_content dt 
+{
+	float:left;
+	height:170px;
+	width:80px;
+	text-align:left;
+	padding-left:20px;
+	background:#EEEEEE;
+}
+#memberCreated_content dd 
+{
+	float:left;
+	height:170px;
+	width:440px;
+	line-height:170px;
+	text-align:left;
+	padding-left:10px;
+}
+
+#memberCreated_footer 
+{
+	width:600px;
+	overflow: visible;
+	clear:both;
+	height:30px;
+	line-height:30px;
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align:center;
+}
+
+#memberCreated_message 
+{
+	width:600px;
+	overflow: visible;
+	clear:both;
+	height:20px;
+	line-height:20px;
+	margin-top:0px;
+	margin-bottom:5px;
+	text-align:center;
+}
+
+.boxTF 
+{ 
+	border:1px solid; 
+	height:15px; 
+	margin-top:5px; 
+	padding:2px 2px 2px 2px; 
+	border-color:#666666; 
+	background-color:#ffffff; 
+	font-family:"굴림"; 
+	font-size:9pt; 
+}
+.nonboxTF 
+{ 
+	border:0px solid; 
+	height:15px; 
+	margin-top:5px; 
+	padding:2px 2px 2px 2px; 
+	border-color:#666666; 
+	background-color:#ffffff; 
+	font-family:"굴림"; 
+	font-size:9pt; 
+}
